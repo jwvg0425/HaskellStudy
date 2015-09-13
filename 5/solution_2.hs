@@ -1,4 +1,4 @@
-finalPosition start move = foldl (\(ax,ay) (x,y) -> (ax+x, ay+y)) start move
+finalPosition = foldl (\(x,y) (dx,dy) -> (x+dx, y+dy))
 
-nineDigit :: Integer -> Int
-nineDigit = length . filter (=='9') . show
+nineDigit :: (Integral a, Show a, Integral b) => a -> b
+nineDigit = fromIntegral . length . filter (=='9') . show
