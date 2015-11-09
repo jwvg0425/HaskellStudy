@@ -3,6 +3,8 @@ HaskellStudy 정리입니다.
 
 ## slide share
 
+### 기존 스터디 자료
+
 [study 0 - 스터디 소개](http://www.slideshare.net/namhyeonuk90/haskell-study-0)  
 [study 1 - 기본 개념들](http://www.slideshare.net/namhyeonuk90/haskell-study-1)  
 [study 2 - list & tuple](http://www.slideshare.net/namhyeonuk90/haskell-study-2)  
@@ -14,6 +16,9 @@ HaskellStudy 정리입니다.
 [study 8 - functor](http://www.slideshare.net/namhyeonuk90/haskell-study-8)  
 [study 9 - Monad & IO](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
 [study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
+
+###추가 정리 자료
+
 [study 11 - kind](http://www.slideshare.net/namhyeonuk90/haskell-study-11)  
 study 12 - monoid (예정)  
 study 13 - arrow (예정)  
