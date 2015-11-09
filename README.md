@@ -15,7 +15,7 @@ HaskellStudy 정리입니다.
 [study 9 - Monad & IO](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
 [study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
 [study 11 - kind](http://www.slideshare.net/namhyeonuk90/haskell-study-11)  
-study 12 - monoid  
+study 12 - monoid (예정)  
 study 13 - arrow (예정)  
 study 14 - useful monads (예정)  
 study 15 - monad transformer (예정)  
