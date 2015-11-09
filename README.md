@@ -14,7 +14,7 @@ HaskellStudy 정리입니다.
 [study 8 - functor](http://www.slideshare.net/namhyeonuk90/haskell-study-8)  
 [study 9 - Monad & IO](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
 [study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
-study 11 - type & typeclass 3 (예정)  
+study 11 - kind (예정)  
 study 12 - monoid  
 study 13 - arrow (예정)  
 study 14 - useful monads (예정)  
