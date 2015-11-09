@@ -3,17 +3,25 @@ HaskellStudy 정리입니다.
 
 ## slide share
 
-[study 0](http://www.slideshare.net/namhyeonuk90/haskell-study-0)  
-[study 1](http://www.slideshare.net/namhyeonuk90/haskell-study-1)  
-[study 2](http://www.slideshare.net/namhyeonuk90/haskell-study-2)  
-[study 3](http://www.slideshare.net/namhyeonuk90/haskell-study-3)  
-[study 4](http://www.slideshare.net/namhyeonuk90/haskell-study-4)  
-[study 5](http://www.slideshare.net/namhyeonuk90/haskell-study-5)  
-[study 6](http://www.slideshare.net/namhyeonuk90/haskell-study-6)  
-[study 7](http://www.slideshare.net/namhyeonuk90/haskell-study-7)  
-[study 8](http://www.slideshare.net/namhyeonuk90/haskell-study-8)  
-[study 9](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
-[study 10](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
+[study 0 - 스터디 소개](http://www.slideshare.net/namhyeonuk90/haskell-study-0)  
+[study 1 - 기본 개념들](http://www.slideshare.net/namhyeonuk90/haskell-study-1)  
+[study 2 - list & tuple](http://www.slideshare.net/namhyeonuk90/haskell-study-2)  
+[study 3 - type & typeclass](http://www.slideshare.net/namhyeonuk90/haskell-study-3)  
+[study 4 - syntax in functions](http://www.slideshare.net/namhyeonuk90/haskell-study-4)  
+[study 5 - high order functions](http://www.slideshare.net/namhyeonuk90/haskell-study-5)  
+[study 6 - type & typeclass 2](http://www.slideshare.net/namhyeonuk90/haskell-study-6)  
+[study 7 - module](http://www.slideshare.net/namhyeonuk90/haskell-study-7)  
+[study 8 - functor](http://www.slideshare.net/namhyeonuk90/haskell-study-8)  
+[study 9 - Monad & IO](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
+[study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
+study 11 - type & typeclass 3 (예정)  
+study 12 - monoid  
+study 13 - arrow (예정)  
+study 14 - useful monads (예정)  
+study 15 - monad transformer (예정)  
+study 16 - zipper (예정)  
+study 17 - concurrency (예정)  
+study 18 - cabal, ghc extension (예정)  
 
 ## 참고 자료
 
