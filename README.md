@@ -26,8 +26,10 @@ study 14 - type & typeclass 3 (예정)
 study 15 - useful monads (예정)  
 study 16 - monad transformer (예정)  
 study 17 - zipper (예정)  
-study 18 - concurrency (예정)  
-study 19 - cabal, ghc extension (예정)  
+study 18 - Lense (예정)  
+study 19 - concurrency (예정)  
+study 20 - mutable object (예정)  
+study 21 - cabal, ghc extension (예정)  
 
 ## 참고 자료
 
