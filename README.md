@@ -30,6 +30,7 @@ study 18 - Lense (예정)
 study 19 - concurrency (예정)  
 study 20 - mutable object (예정)  
 study 21 - cabal, ghc extension (예정)  
+study 22 - FFI (예정)
 
 ## 참고 자료
 
