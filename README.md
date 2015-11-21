@@ -50,3 +50,8 @@ Haskell GHC 컴파일러의 여러 확장에 대해 정리해놓은 글입니다
 [typeclassopedia](https://wiki.haskell.org/Typeclassopedia)  
 
 Haskell의 typeclass에 대해 상세히 설명된 글입니다. 
+
+[wikibooks-haskell](https://en.wikibooks.org/wiki/Haskell)  
+
+wikibooks 사이트의 Haskell 관련 문서입니다. 여기도 굉장히 정리가 잘 되어 있어서 모르는 내용 찾아볼 때 참고하기 좋습니다.
+
