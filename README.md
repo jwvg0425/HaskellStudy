@@ -17,20 +17,21 @@ HaskellStudy 정리입니다.
 [study 9 - Monad & IO](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
 [study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
 
-###추가 정리 자료
+###추가 정리 자료(advanced)
 
 [study 11 - kind](http://www.slideshare.net/namhyeonuk90/haskell-study-11)  
 [study 12 - monoid](http://www.slideshare.net/namhyeonuk90/haskell-study-12)  
 study 13 - arrow (예정)  
-study 14 - type & typeclass 3 (예정)  
-study 15 - useful monads (예정)  
-study 16 - monad transformer (예정)  
-study 17 - zipper (예정)  
-study 18 - Lense (예정)  
+study 14 - useful monads (예정)  
+study 15 - monad transformer (예정)  
+study 16 - zipper (예정)  
+study 17 - Lense (예정)  
+study 18 - mutable object (예정)  
 study 19 - concurrency (예정)  
-study 20 - mutable object (예정)  
+study 20 - parallelism (예정)  
 study 21 - cabal, ghc extension (예정)  
-study 22 - FFI (예정)
+study 22 - FFI (예정)  
+study 23 - IDE / package (예정)
 
 ## 참고 자료
 
