@@ -20,7 +20,7 @@ HaskellStudy 정리입니다.
 ###추가 정리 자료
 
 [study 11 - kind](http://www.slideshare.net/namhyeonuk90/haskell-study-11)  
-study 12 - monoid (예정)  
+[study 12 - monoid](http://www.slideshare.net/namhyeonuk90/haskell-study-12)  
 study 13 - arrow (예정)  
 study 14 - type & typeclass 3 (예정)  
 study 15 - useful monads (예정)  
