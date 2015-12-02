@@ -1,5 +1,9 @@
 data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving Show
     
+instance Eq a => Eq (Tree a) where
+    EmptyTree == EmptyTree = True
+    (Node v l r) == (Node v2 l2 r2) = (v==v2) && (l==l2) && (r==r2)
+    _ == _ = False
 
 height :: Tree a -> Integer
 height EmptyTree = 0
@@ -9,18 +13,20 @@ singleton :: a -> Tree a
 singleton x = Node x EmptyTree EmptyTree
 
 insert :: (Ord a) => Tree a -> a -> Tree a
-insert EmptyTree x = singleton x
+insert EmptyTree = singleton
 insert node@(Node value left right) x
     | x == value = node
     | x < value = Node value (insert left x) right
     | otherwise = Node value left (insert right x)
     
 find :: (Ord a) => Tree a -> a -> Bool
+find EmptyTree = False
 find (Node value left right) x
     | x == value = True
     | x < value = find left x
     | otherwise = find right x
     
+
 remove :: (Ord a) => Tree a -> a -> Tree a
 remove EmptyTree _ = EmptyTree
 remove tree@(Node value EmptyTree right) x
