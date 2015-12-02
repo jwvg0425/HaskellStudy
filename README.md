@@ -33,6 +33,10 @@ study 21 - cabal, ghc extension (예정)
 study 22 - FFI (예정)  
 study 23 - IDE / package (예정)
 
+## practice
+
+practice 폴더 안에는 각 스터디 내용에 알맞는 간단한 수준의 연습 문제들 및 해당 문제에 대한 예시 답안이 정리되어 있습니다. 연습이 필요한데 마땅한 연습 방법이 없다면 practice 폴더 안의 문제를 푸시면 됩니다.
+
 ## 참고 자료
 
 [Learn You a Haskell For Great Good!](http://learnyouahaskell.com/chapters)  
