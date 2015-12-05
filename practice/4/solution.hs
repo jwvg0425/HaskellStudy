@@ -4,7 +4,9 @@ isSorted :: Ord a => [a] -> Bool
 isSorted [] = True
 isSorted [a] = True
 isSorted [a,b] = a <= b
-isSorted (a:b:l) = if a > b then False else isSorted (b:l)
+isSorted (a:b:l)
+    | a > b = False
+    | otherwise = isSorted (b:l)
 
 -- # 2 : contains
 contains :: Eq a => [a] -> [a] -> Bool
