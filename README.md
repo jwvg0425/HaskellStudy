@@ -25,7 +25,7 @@ study 13 - function type (예정)
 study 14 - useful monads (예정)  
 study 15 - monad transformer (예정)  
 study 16 - zipper (예정)  
-study 17 - Lense (예정)  
+study 17 - Lens (예정)  
 study 18 - arrow (예정)  
 study 19 - mutable object (예정)  
 study 20 - concurrency (예정)  
@@ -60,3 +60,6 @@ Haskell의 typeclass에 대해 상세히 설명된 글입니다.
 
 wikibooks 사이트의 Haskell 관련 문서입니다. 여기도 굉장히 정리가 잘 되어 있어서 모르는 내용 찾아볼 때 참고하기 좋습니다.
 
+[All About Monads](https://wiki.haskell.org/All_About_Monads)  
+
+Haskell의 Monad에 대해 상세히 설명된 글입니다. 각 모나드의 개념, 왜 그런 모나드가 필요한지 및 예제까지 풍부하게 잘 정리되어 있어 공부하기 좋습니다.
