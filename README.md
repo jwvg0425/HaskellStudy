@@ -46,6 +46,9 @@ practice 폴더 안에는 각 스터디 내용에 알맞는 간단한 수준의 
 
 ## 참고 자료
 
+[모나드 괴담](https://e.xtendo.org/haskell/ko/monad_fear/slide)  
+Haskell을 처음에 배우기 전에 간단하게 한 번 읽어보면 좋은 자료입니다.
+
 [Learn You a Haskell For Great Good!](http://learnyouahaskell.com/chapters)  
  스터디 주 교재 내용으로 사용했던 자료입니다. 처음 입문할 때 가장 보기 좋은 자료인 것 같습니다.
  
