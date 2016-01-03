@@ -23,7 +23,7 @@ HaskellStudy 정리입니다.
 [study 12 - monoid](http://www.slideshare.net/namhyeonuk90/haskell-study-12)  
 [study 13 - function type](http://www.slideshare.net/namhyeonuk90/haskell-study-13)  
 [study 14 - useful monads](http://www.slideshare.net/namhyeonuk90/haskell-study-14)  
-study 15 - monad transformer (예정)  
+[study 15 - monad transformer](http://www.slideshare.net/namhyeonuk90/haskell-study-15)  
 study 16 - zipper (예정)  
 study 17 - Lens (예정)  
 study 18 - arrow (예정)  
