@@ -46,6 +46,9 @@ practice 폴더 안에는 각 스터디 내용에 알맞는 간단한 수준의 
 
 ## 참고 자료
 
+[왜 함수형 프로그래밍이 중요한가](https://medium.com/@jooyunghan/%EC%99%9C-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C%EA%B0%80-john-hughes-1989-f6a1074a055b#.3x63auh15)  
+함수형 프로그래밍 언어가 가지고 있는 장점들에 대해 이해하기 쉽게 잘 설명한 글입니다.
+
 [모나드 괴담](https://e.xtendo.org/haskell/ko/monad_fear/slide)  
 Haskell을 처음에 배우기 전에 간단하게 한 번 읽어보면 좋은 자료입니다.
 
