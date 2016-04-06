@@ -17,7 +17,7 @@ HaskellStudy 정리입니다.
 [study 9 - Monad & IO](http://www.slideshare.net/namhyeonuk90/haskell-study-9)  
 [study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
 
-###추가 정리 자료(advanced)
+### 추가 정리 자료(advanced)
 
 [study 11 - kind](http://www.slideshare.net/namhyeonuk90/haskell-study-11)  
 [study 12 - monoid](http://www.slideshare.net/namhyeonuk90/haskell-study-12)  
@@ -33,6 +33,13 @@ study 21 - parallelism (예정)
 study 22 - cabal, ghc extension (예정)  
 study 23 - FFI (예정)  
 study 24 - IDE / package (예정)
+
+### FRP in Haskell
+0 - 개요(예정)  
+1 - FRP란?(예정)  
+2 - elerea 라이브러리(예정)  
+3 - euphoria 라이브러리(예정)  
+4 - yampa 라이브러리(예정)  
 
 ## Open Tutorials
 
