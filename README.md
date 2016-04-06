@@ -1,9 +1,11 @@
 # HaskellStudy
-HaskellStudy 정리입니다.
+Next Institute에서 2015년에 진행했던 Haksell 스터디 자료를 바탕으로 한 자료들입니다.
 
 ## slide share
 
 ### 기존 스터디 자료
+
+Next Institute에서 2015년 여름 무렵에 진행했던 원 스터디 자료입니다.
 
 [study 0 - 스터디 소개](http://www.slideshare.net/namhyeonuk90/haskell-study-0)  
 [study 1 - 기본 개념들](http://www.slideshare.net/namhyeonuk90/haskell-study-1)  
@@ -18,6 +20,8 @@ HaskellStudy 정리입니다.
 [study 10 - Baseball Game](http://www.slideshare.net/namhyeonuk90/haskell-study-10)  
 
 ### 추가 정리 자료(advanced)
+
+기존 스터디 자료에 추가적으로 좀 더 깊이 있는 개념들을 정리한 자료입니다. 뒤로 갈 수록 연습 문제 등의 자료가 부족합니다. 차차 보완할 예정입니다.
 
 [study 11 - kind](http://www.slideshare.net/namhyeonuk90/haskell-study-11)  
 [study 12 - monoid](http://www.slideshare.net/namhyeonuk90/haskell-study-12)  
@@ -35,6 +39,9 @@ study 23 - FFI (예정)
 study 24 - IDE / package (예정)
 
 ### FRP in Haskell
+
+Haskell에서의 Functional Reactive Programming을 소개하는 자료입니다.
+
 0 - 개요(예정)  
 1 - FRP란?(예정)  
 2 - elerea 라이브러리(예정)  
@@ -46,10 +53,9 @@ study 24 - IDE / package (예정)
 [We Love Haskell](https://opentutorials.org/course/2050)  
 이 스터디 내용을 기반으로 하여 작성중인 Haskell 강의 자료입니다.
 
-
 ## practice
 
-practice 폴더 안에는 각 스터디 내용에 알맞는 간단한 수준의 연습 문제들 및 해당 문제에 대한 예시 답안이 정리되어 있습니다. 연습이 필요한데 마땅한 연습 방법이 없다면 practice 폴더 안의 문제를 푸시면 됩니다.
+practice 폴더 안에는 각 스터디 내용에 알맞는 간단한 수준의 연습 문제들 및 해당 문제에 대한 예시 답안이 정리되어 있습니다. 연습이 필요한데 마땅한 연습 방법이 없다면 practice 폴더 안의 문제를 푸시면 됩니다. (아직 문제가 많이 부족합니다. 차차 보완할 예정입니다).
 
 ## 참고 자료
 
@@ -79,3 +85,7 @@ Haskell의 Monad에 대해 상세히 설명된 글입니다. 각 모나드의 �
 
 [Functional Reactive Programming](https://wiki.haskell.org/Functional_Reactive_Programming)  
 Haskell wiki에 있는 FRP 소개 자료입니다. 기본 개념 및 관련 자료들이 많이 소개되어 있어 처음에 공부할 때 도움이 되는 사이트입니다.
+
+## Contribute
+
+스터디 자료에서 잘못된 내용을 발견할 경우 언제든지 이슈로 등록해주세요. 좋은 연습 문제(pracite 폴더의) 및 기존 연습 문제에 대한 좋은 모법 당안 등을 PR 해주셔도 감사합니다.
