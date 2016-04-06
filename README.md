@@ -76,3 +76,6 @@ wikibooks 사이트의 Haskell 관련 문서입니다. 여기도 굉장히 정�
 
 [All About Monads](https://wiki.haskell.org/All_About_Monads)  
 Haskell의 Monad에 대해 상세히 설명된 글입니다. 각 모나드의 개념, 왜 그런 모나드가 필요한지 및 예제까지 풍부하게 잘 정리되어 있어 공부하기 좋습니다.
+
+[Functional Reactive Programming](https://wiki.haskell.org/Functional_Reactive_Programming)  
+Haskell wiki에 있는 FRP 소개 자료입니다. 기본 개념 및 관련 자료들이 많이 소개되어 있어 처음에 공부할 때 도움이 되는 사이트입니다.
