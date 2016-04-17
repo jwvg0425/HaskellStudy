@@ -42,6 +42,13 @@ study 24 - IDE / package (예정)
 
 Haskell의 다양한 이론적인 개념들에 대해 다룹니다. 이 부분의 내용은 알아도 그만 몰라도 그만이거나 특정 상황에서만 유용한 지식이 많기 때문에 공부하실 때 이 파트의 내용은 우선순위를 낮게 잡으셔도 됩니다.
 
+1 - Denotational Semantics (예정)  
+2 - Equational reasoning (예정)  
+3 - Program derivation (예정)  
+4 - Category theory (예정)  
+5 - The Curry–Howard isomorphism (예정)  
+6 - Value recursion (예정)  
+
 ### FRP in Haskell
 
 Haskell에서의 Functional Reactive Programming을 소개하는 자료입니다.
