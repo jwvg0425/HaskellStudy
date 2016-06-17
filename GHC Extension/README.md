@@ -1,7 +1,7 @@
 #GHC Extension
 
-HaskellÀÇ ´ëÇ¥ÀûÀÎ ÄÄÆÄÀÏ·¯ÀÎ GHC¿¡¼­ »ç¿ë°¡´ÉÇÑ ´Ù¾çÇÑ ¾ğ¾î È®Àå¿¡ ´ëÇÑ ³»¿ëÀ» ´Ù·ì´Ï´Ù.
+Haskellì˜ ëŒ€í‘œì ì¸ ì»´íŒŒì¼ëŸ¬ì¸ GHCì—ì„œ ì‚¬ìš©ê°€ëŠ¥í•œ ë‹¤ì–‘í•œ ì–¸ì–´ í™•ì¥ì— ëŒ€í•œ ë‚´ìš©ì„ ë‹¤ë£¹ë‹ˆë‹¤.
 
-[BangPatterns](BangPatterns.md)  
-[RankNTypes](RankNTypes.md)  
-[ScopedTypeVariables](ScopedTypeVariables.md)  
+- [BangPatterns](BangPatterns.md)  
+- [RankNTypes](RankNTypes.md)  
+- [ScopedTypeVariables](ScopedTypeVariables.md)  
