@@ -100,6 +100,9 @@ Haskell의 Monad에 대해 상세히 설명된 글입니다. 각 모나드의 �
 [Functional Reactive Programming](https://wiki.haskell.org/Functional_Reactive_Programming)  
 Haskell wiki에 있는 FRP 소개 자료입니다. 기본 개념 및 관련 자료들이 많이 소개되어 있어 처음에 공부할 때 도움이 되는 사이트입니다.
 
+[왜 모나드를 사용해야하는가](https://github.com/weirdmeetup/monad-guide-kr/blob/master/articles/why-do-monads-matter.md)  
+모나드의 탄생 배경과 그와 관련된 개념들에 대해 굉장히 쉽고 간결하게 잘 설명한 글입니다.
+
 ## Contribute
 
 스터디 자료에서 잘못된 내용을 발견할 경우 언제든지 이슈로 등록해주세요. 좋은 연습 문제(pracite 폴더의) 및 기존 연습 문제에 대한 좋은 모법 당안 등을 PR 해주셔도 감사합니다.
