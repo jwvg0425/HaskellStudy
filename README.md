@@ -59,10 +59,18 @@ Haskell에서의 Functional Reactive Programming을 소개하는 자료입니다
 3 - euphoria 라이브러리(예정)  
 4 - yampa 라이브러리(예정)  
 
-## Open Tutorials
+## tutorials
 
-[We Love Haskell](https://opentutorials.org/course/2050)  
-이 스터디 내용을 기반으로 하여 작성중인 Haskell 강의 자료입니다.
+markdown 형태로 정리한 Haskell 강의 자료입니다.
+
+[Haskell Tutorial](Haskell Tutorial/README.md)  
+프로그래밍 입문자들을 대상으로 하는 Haskell 강의 자료입니다.
+
+[Advanced Haskell](Advanced Haskell/README.md)  
+Haskell에 관련된 고급 토픽(배경 이론 등)을 다룹니다.
+
+[GHC Extension](GHC Extension/README.md)  
+Haskell의 대표적인 컴파일러인 GHC의 여러 가지 확장을 다룹니다.
 
 ## practice
 
