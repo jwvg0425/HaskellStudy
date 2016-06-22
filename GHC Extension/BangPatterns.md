@@ -1,19 +1,19 @@
 #BangPatterns
 
-GHC¿¡¼­ Bang Patterns È®ÀåÀ» ¾²°í ½Í´Ù¸é ¼Ò½º ÆÄÀÏÀÇ ¸Ç À§¿¡ ¾Æ·¡ ÄÚµå¸¦ Àû¾îÁÖ½Ã¸é µË´Ï´Ù.
+GHCì—ì„œ Bang Patterns í™•ìž¥ì„ ì“°ê³  ì‹¶ë‹¤ë©´ ì†ŒìŠ¤ íŒŒì¼ì˜ ë§¨ ìœ„ì— ì•„ëž˜ ì½”ë“œë¥¼ ì ì–´ì£¼ì‹œë©´ ë©ë‹ˆë‹¤. 
 
 ```Haskell
 {-# LANGUAGE BangPatterns #-}
 ```
 
-Bang Patterns´Â ½±°Ô ¸»ÇÏÀÚ¸é, **¾ö°ÝÇÑ ÆÐÅÏ ¸ÅÄª**¿¡ ´ëÇÑ ±¸¹®À» Á¦°øÇØÁÖ´Â ¾ð¾î È®ÀåÀÔ´Ï´Ù. ¿¹¸¦ µé¾î ´ÙÀ½°ú °°Àº ÇÔ¼ö°¡ ÀÖ´Ù°í ÇÕ½Ã´Ù.
+Bang PatternsëŠ” ì‰½ê²Œ ë§í•˜ìžë©´, **ì—„ê²©í•œ íŒ¨í„´ ë§¤ì¹­**ì— ëŒ€í•œ êµ¬ë¬¸ì„ ì œê³µí•´ì£¼ëŠ” ì–¸ì–´ í™•ìž¥ìž…ë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´ ë‹¤ìŒê³¼ ê°™ì€ í•¨ìˆ˜ê°€ ìžˆë‹¤ê³  í•©ì‹œë‹¤.
 
 ```Haskell
 foo :: Bool -> String
 foo test = "Bar"
 ```
 
-ÀÌ ÇÔ¼ö´Â ÀÚ½ÅÀÇ ÀÎÀÚ·Î ³Ñ¾î¿Â °ªÀÌ ¹ºÁö Æò°¡ÇÏÁö ¾Ê½À´Ï´Ù. Áö¿¬ Æò°¡ Àü·«¿¡ ÀÇÇØ ```test``` °ªÀÌ ÇÔ¼ö ½ÇÇà¿¡ ÇÊ¿äÇÏÁö ¾ÊÀ¸¹Ç·Î °ªÀ» Æò°¡ÇÏÁö ¾Ê°í °á°ú°ª ```"Bar"```¸¸ µ¹·ÁÁÖ±â ¶§¹®ÀÌÁÒ. ±×·¡¼­ ÇÔ¼ö ½ÇÇà½Ã ¾Æ·¡¿Í °°Àº °á°ú°¡ ³ª¿É´Ï´Ù.
+ì´ í•¨ìˆ˜ëŠ” ìžì‹ ì˜ ì¸ìžë¡œ ë„˜ì–´ì˜¨ ê°’ì´ ë­”ì§€ í‰ê°€í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì§€ì—° í‰ê°€ ì „ëžµì— ì˜í•´ ```test``` ê°’ì´ í•¨ìˆ˜ ì‹¤í–‰ì— í•„ìš”í•˜ì§€ ì•Šìœ¼ë¯€ë¡œ ê°’ì„ í‰ê°€í•˜ì§€ ì•Šê³  ê²°ê³¼ê°’ ```"Bar"```ë§Œ ëŒë ¤ì£¼ê¸° ë•Œë¬¸ì´ì£ . ê·¸ëž˜ì„œ í•¨ìˆ˜ ì‹¤í–‰ì‹œ ì•„ëž˜ì™€ ê°™ì€ ê²°ê³¼ê°€ ë‚˜ì˜µë‹ˆë‹¤.
 
 ```Haskell
 ghci> foo True
@@ -24,7 +24,7 @@ ghci> foo undefined
 "Bar"
 ```
 
-¿ø·¡ ```undefined``` °ªÀº Æò°¡µÉ ¶§ ¿¹¿Ü¸¦ ¹ß»ý½ÃÄÑ¾ßÇÏÁö¸¸ Áö¿¬ Æò°¡ Àü·« ¶§¹®¿¡ °ªÀÌ Æò°¡µÇÁö ¾Ê¾Æ ¿¹¿Ü¸¦ ¹ß»ý½ÃÅ°Áö ¾Ê°í °á°ú°ª ```"Bar"```¸¦ µ¹·ÁÁÖ°Ô µÇÁÒ. ¹Ý¸é¿¡ ÇÔ¼ö°¡ ¾Æ·¡¿Í °°ÀÌ ÀÛ¼ºµÇ¾î ÀÖÀ» °æ¿ì °á°ú´Â ´Þ¶óÁý´Ï´Ù.
+ì›ëž˜ ```undefined``` ê°’ì€ í‰ê°€ë  ë•Œ ì˜ˆì™¸ë¥¼ ë°œìƒì‹œì¼œì•¼í•˜ì§€ë§Œ ì§€ì—° í‰ê°€ ì „ëžµ ë•Œë¬¸ì— ê°’ì´ í‰ê°€ë˜ì§€ ì•Šì•„ ì˜ˆì™¸ë¥¼ ë°œìƒì‹œí‚¤ì§€ ì•Šê³  ê²°ê³¼ê°’ ```"Bar"```ë¥¼ ëŒë ¤ì£¼ê²Œ ë˜ì£ . ë°˜ë©´ì— í•¨ìˆ˜ê°€ ì•„ëž˜ì™€ ê°™ì´ ìž‘ì„±ë˜ì–´ ìžˆì„ ê²½ìš° ê²°ê³¼ëŠ” ë‹¬ë¼ì§‘ë‹ˆë‹¤.
 
 ```Haskell
 foo :: Bool -> String
@@ -32,7 +32,7 @@ foo True = "Bar"
 foo False = "Bar"
 ```
 
-ÀÎÀÚ·Î ³Ñ¾î¿Â °ª¿¡ ´ëÇØ ÆÐÅÏ ¸ÅÄªÀ» ¼öÇàÇß°í, ±× ÆÐÅÏ ¸ÅÄª¿¡ µû¶ó ´Ù¸¥ ÇÔ¼ö ±¸ÇöºÎ¸¦ °®°Ô µÇ¹Ç·Î °á°ú°ªÀ» ¾ò±â À§ÇØ¼± ÀÎÀÚ·Î ³Ñ¾î¿Â °ªÀÌ ¹ºÁöµµ ¹Ýµå½Ã Æò°¡¸¦ ÇØ¾ßÇÕ´Ï´Ù. ±×·¡¼­ ÇÔ¼öÀÇ ½ÇÇà °á°ú´Â ¾Æ·¡¿Í °°ÀÌ ´Þ¶óÁý´Ï´Ù.
+ì¸ìžë¡œ ë„˜ì–´ì˜¨ ê°’ì— ëŒ€í•´ íŒ¨í„´ ë§¤ì¹­ì„ ìˆ˜í–‰í–ˆê³ , ê·¸ íŒ¨í„´ ë§¤ì¹­ì— ë”°ë¼ ë‹¤ë¥¸ í•¨ìˆ˜ êµ¬í˜„ë¶€ë¥¼ ê°–ê²Œ ë˜ë¯€ë¡œ ê²°ê³¼ê°’ì„ ì–»ê¸° ìœ„í•´ì„  ì¸ìžë¡œ ë„˜ì–´ì˜¨ ê°’ì´ ë­”ì§€ë„ ë°˜ë“œì‹œ í‰ê°€ë¥¼ í•´ì•¼í•©ë‹ˆë‹¤. ê·¸ëž˜ì„œ í•¨ìˆ˜ì˜ ì‹¤í–‰ ê²°ê³¼ëŠ” ì•„ëž˜ì™€ ê°™ì´ ë‹¬ë¼ì§‘ë‹ˆë‹¤.
 
 ```Haskell
 ghci> foo True
@@ -43,11 +43,11 @@ ghci> foo undefined
 *** Exception: Prelude.undefined
 ```
 
-Bang Patterns´Â ÆÐÅÏ ¸ÅÄª¿¡¼­ Æ¯Á¤ ÀÎÀÚ°¡ ÇÊ¿äÇÏµç ÇÊ¿äÇÏÁö ¾Êµç WHNF ÇüÅÂ°¡ µÉ ¶§±îÁö Æò°¡¸¦ ½ÃÅ°°Ô ¸¸µé¾îÁÖ´Â ¾ð¾î È®ÀåÀÔ´Ï´Ù. ¾Æ·¡¿Í °°ÀÌ Bang Patterns¸¦ Àû¿ëÇÏ°í ½ÍÀº ÀÎÀÚ¿¡ ´ëÇØ ÀÎÀÚÀÇ ¾Õ¿¡ !¸¦ ºÙ¿©ÁÖ¸é µË´Ï´Ù.
+Bang PatternsëŠ” íŒ¨í„´ ë§¤ì¹­ì—ì„œ íŠ¹ì • ì¸ìžê°€ í•„ìš”í•˜ë“  í•„ìš”í•˜ì§€ ì•Šë“  WHNF í˜•íƒœê°€ ë  ë•Œê¹Œì§€ í‰ê°€ë¥¼ ì‹œí‚¤ê²Œ ë§Œë“¤ì–´ì£¼ëŠ” ì–¸ì–´ í™•ìž¥ìž…ë‹ˆë‹¤. ì•„ëž˜ì™€ ê°™ì´ Bang Patternsë¥¼ ì ìš©í•˜ê³  ì‹¶ì€ ì¸ìžì— ëŒ€í•´ ì¸ìžì˜ ì•žì— !ë¥¼ ë¶™ì—¬ì£¼ë©´ ë©ë‹ˆë‹¤.
 
 ```Haskell
 foo :: Bool -> String
 foo !test = "Bar"
 ```
 
-ÀÌ·¸°Ô ÀÛ¼ºÇÏ¸é Bool°ª test°¡ WHNFÇüÅÂ, Áï °ª »ý¼ºÀÚ ºÎºÐ±îÁø Æò°¡¸¦ ÇØ¾ßÇÏ´Âµ¥, bool°ªÀÇ °ª »ý¼ºÀÚ´Â True ¶Ç´Â FalseÁÒ. µû¶ó¼­ ÀÌ ÇÔ¼ö¿¡ undefined °°Àº °ªÀ» ³Ñ±â°Ô µÉ °æ¿ì ¿¹¿Ü¸¦ ¹ß»ý½ÃÅ°°Ô µË´Ï´Ù. ¾ö°ÝÇÑ ÆÐÅÏ ¸ÅÄªÀ» ½±°Ô ¼öÇàÇÒ ¼ö ÀÖ°Ô µµ¿ÍÁÖ´Â ¾ð¾î È®ÀåÀÌÁÒ.
+ì´ë ‡ê²Œ ìž‘ì„±í•˜ë©´ Boolê°’ testê°€ WHNFí˜•íƒœ, ì¦‰ ê°’ ìƒì„±ìž ë¶€ë¶„ê¹Œì§„ í‰ê°€ë¥¼ í•´ì•¼í•˜ëŠ”ë°, boolê°’ì˜ ê°’ ìƒì„±ìžëŠ” True ë˜ëŠ” Falseì£ . ë”°ë¼ì„œ ì´ í•¨ìˆ˜ì— undefined ê°™ì€ ê°’ì„ ë„˜ê¸°ê²Œ ë  ê²½ìš° ì˜ˆì™¸ë¥¼ ë°œìƒì‹œí‚¤ê²Œ ë©ë‹ˆë‹¤. ì—„ê²©í•œ íŒ¨í„´ ë§¤ì¹­ì„ ì‰½ê²Œ ìˆ˜í–‰í•  ìˆ˜ ìžˆê²Œ ë„ì™€ì£¼ëŠ” ì–¸ì–´ í™•ìž¥ì´ì£ .
