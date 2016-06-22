@@ -56,8 +56,6 @@ Haskell에서의 Functional Reactive Programming을 소개하는 자료입니다
 0 - 개요(예정)  
 1 - FRP란?(예정)  
 2 - elerea 라이브러리(예정)  
-3 - euphoria 라이브러리(예정)  
-4 - yampa 라이브러리(예정)  
 
 ## tutorials
 
