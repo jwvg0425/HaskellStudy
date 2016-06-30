@@ -83,7 +83,7 @@ practice 폴더 안에는 각 스터디 내용에 알맞는 간단한 수준의 
 Haskell을 처음에 배우기 전에 간단하게 한 번 읽어보면 좋은 자료입니다.
 
 [Learn You a Haskell For Great Good!](http://learnyouahaskell.com/chapters)  
- 스터디 주 교재 내용으로 사용했던 자료입니다. 처음 입문할 때 가장 보기 좋은 자료인 것 같습니다.
+ 스터디 주 교재 내용으로 사용했던 자료입니다. 처음 입문할 때 가장 보기 좋은 자료인 것 같습니다. [LYAH](LYAH/README.md)에 한국어 번역이 있습니다. 번역이 별로 정확하지는 않습니다. 많은 지적 부탁드립니다.
  
 [Real World Haskell](http://book.realworldhaskell.org/read/)  
  위 자료와 함께 보통 좋은 입문 자료로 꼽히는 자료입니다. Learn You a Haskell For Great Good!이 좀 더 쉽게 설명하는 것에 주안점을 둔 방면 이 자료는 Haskell을 실용적으로 다루는 방법들에 초점을 맞추고 있습니다. 그만큼 난이도는 조금 높은 편이지만 이 책의 내용을 모두 보면 Haskell을 실용적으로 사용하는 방법에 대해 굉장히 자세하게 알 수 있습니다.
