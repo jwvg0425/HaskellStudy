@@ -450,3 +450,6 @@ describeList xs = "The list is " ++ what xs
           what [x] = "a singleton list."
           what xs = "a longer list."
 ```
+
+ - 이전 챕터 : [03 - 타입과 타입클래스](03_TypesAndTypeclasses.md)
+ - 다음 챕터 : [05 - 재귀](05_Recursion.md)
