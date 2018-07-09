@@ -1,4 +1,4 @@
-#BangPatterns
+# BangPatterns
 
 GHC에서 Bang Patterns 확장을 쓰고 싶다면 소스 파일의 맨 위에 아래 코드를 적어주시면 됩니다. 
 
